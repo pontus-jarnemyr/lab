@@ -1,0 +1,2 @@
+# Do not upload DB data
+volumes/**/*data  
