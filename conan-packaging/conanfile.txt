@@ -1,0 +1,8 @@
+[requires]
+argparse/3.2
+catch2/3.5.0
+logger/1.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
