@@ -1,0 +1,10 @@
+[Unit]
+Description=MyDaemon Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/mydaemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
